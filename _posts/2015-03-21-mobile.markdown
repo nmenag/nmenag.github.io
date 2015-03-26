@@ -1,0 +1,11 @@
+---
+layout: default
+img: |
+  <i class="icon-mobile-device" style="font-size:100px"></i>
+
+category: Services
+title: En el Desarrollo movil
+description: |
+  <p class="lead">Desarrollo aplicaciones móviles hibridas usando  la plataforma<a href="http://phonegap.com/install/" target="_blank"> Phonegap/Cordova</a></p>
+
+---

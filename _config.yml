@@ -1,0 +1,34 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://yoursite.com
+title: nmenag
+email: nmena.garzon@gmail.com
+location: Bogotá, Colombia
+description: > # "Write an awesome description for your new site here.
+  You can edit this line in _config.yml. It will appear in your document
+  head meta (for Google search results) and in your feed.xml site
+  description."
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/nmenag
+  - title: github
+    url: https://github.com/nmenag
+  - title: linkedin
+    url: https://www.linkedin.com/pub/nicol%C3%A1s-mena-garz%C3%B3n/67/b88/579
+  - title: google plus
+    url: https://plus.google.com/+NicolasMenaGarz%C3%B3n12/posts
