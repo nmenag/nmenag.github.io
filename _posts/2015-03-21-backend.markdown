@@ -3,14 +3,14 @@ layout: default
 img: |
   <div align="center">
     <div class="row">
-      <i class="icon-ruby-on-rails" style="font-size:100px"></i>
-      <i class="icon-ruby" style="font-size:100px"></i>
-      <i class="icon-php" style="font-size:100px"></i>
+      <i class="icon-ruby-on-rails" style="font-size:100px" title="Ruby"></i>
+      <i class="icon-ruby" style="font-size:100px" title="Rails"></i>
+      <i class="icon-php" style="font-size:100px" title="PHP"></i>
     </div>
     <i class="fa fa-plus" style="font-size:100px"></i>
     <div class="row">
-      <i class="icon-postgres" style="font-size:100px"></i>
-      <i class="icon-mysql" style="font-size:100px"></i>
+      <i class="icon-postgres" style="font-size:100px" title="PostgreSQL"></i>
+      <i class="icon-mysql" style="font-size:100px" title="MySQL"></i>
     </div>
   </div>
 
