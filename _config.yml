@@ -18,6 +18,8 @@ description: > # "Write an awesome description for your new site here.
 # Build settings
 markdown: kramdown
 permalink: pretty
+paginate: 5
+paginate_path: "/blog/page:num/"
 sass:
   sass_dir: /assets/css/sass
   style: compressed

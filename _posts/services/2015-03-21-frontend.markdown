@@ -10,7 +10,7 @@ description: |
   <p class="lead">Construyo applicaciones y sitios web  aplicando diversas tecnologías como <a href="https://angularjs.org/" target="_blank">AngularJS</a>, <a href="http://emberjs.com/" target="_blank">Ember.js</a>, <a href="http://getbootstrap.com/2.3.2/" target="_blank">Twitter Bootstrap</a>,
   <a href="http://foundation.zurb.com/" target="_blank">Foundation Zurb</a>,
   <a href="https://jquery.com/" target="_blank">jQuery</a>,
-  <a href="http://lesscss.org/" target="_blank">LESS</a>,
+  <a href="http://lesscss.org/" target="_blank">LESS</a> y
   <a href="http://sass-lang.com/" target="_blank">SASS</a>.
   </p>
 
