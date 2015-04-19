@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Cantarell:700|Open+Sans:300&subset=cyrillic-ext);
+
+/*--TERMINAL HOLDER--*/
+#terminal-window {
+  margin-bottom: 40px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+/*---TOP BAR---*/
+#terminal-toolbar {
+  width: 100%;
+  height: 25px;
+  background: gray;
+  border-radius: 5px 5px 0 0;
+
+  background: #cfcfcf; /* Old browsers */
+  background: -moz-linear-gradient(top,  #2f2e2b 0%, #3c3b37 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2f2e2b), color-stop(100%,#3c3b37)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #2f2e2b 0%,#3c3b37 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #2f2e2b 0%,#3c3b37 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #2f2e2b 0%,#3c3b37 100%); /* IE10+ */
+  background: linear-gradient(top,  #2f2e2b 0%,#3c3b37 100%); /* W3C */
+
+  -webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.5) inset,0px 1px 0px #515151;
+  -moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.5) inset,0px 1px 0px #515151;
+  box-shadow: 0px 1px 0px rgba(255,255,255,0.5) inset,0px 1px 0px #515151;
+}
+
+/*-----TITLE TEXT-----*/
+#terminal-title {
+  float: left;
+  position: relative;
+  top: 6px;
+  width: 40%;
+  left: 40%;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #d5dfdf;
+  line-height: 14px;
+}
+
+/*--TERMINAL BODY--*/
+#terminal-body {
+  font-family: monospace; line-height: 1em;
+  font-size: 14px;
+  background-color: #000;
+  padding: 10px;
+  color: gray !important;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+/*---BLINK EFFECT---*/
+@keyframes blink
+{
+  0%   { background:rgba(99,222,0,100); }
+  100% { background:rgba(99,222,0,0); }
+}
+
+@-webkit-keyframes blink {
+  0%   { background:rgba(99,222,0,100); }
+  100% { background:rgba(99,222,0,0); }
+}
+@-moz-keyframes blink {
+  0%   { background:rgba(99,222,0,100); }
+  100% { background:rgba(99,222,0,0); }
+}
