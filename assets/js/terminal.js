@@ -1,5 +1,4 @@
-$(document).ready(function() {
-
+$(function() {
   // Better performance in replacing js in any browsers. http://jsperf.com/encode-html-entities
   if($.browser.name != "chrome") {
     var tagsToReplace = {
