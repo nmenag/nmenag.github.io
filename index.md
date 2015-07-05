@@ -1,5 +1,6 @@
 ---
 layout: default
 title: Nicolas Mena
-subTitle: Desarrollador de software y aplicaciones web, con conocimientos en Ruby, PHP, Javascript, HTML5 y CSS3.
+profession: Programador Full Stack 
+subTitle: Desarrollador de Software y Aplicaciones Web, amante al software libre.
 ---

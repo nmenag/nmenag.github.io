@@ -14,19 +14,22 @@ body, h1,h2,h3,h4,h5,h6 {
 }
 
 .intro-header {
-  padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-  padding-bottom: 50px;
+  width: 100%;
+  min-height: 100%;
+  height: auto !important;
+  position: absolute;
+  top:0; 
+  left:0;
+  padding-top: 50px;
   text-align: center;
   color: $white-primary;
   background: $blue-primary;
-  background: url(../img/SplitShire_blur07.jpg) no-repeat center center;
-  background-size: cover;
+  background: url(../img/SplitShire_blur07.jpg) 50% 50%;
+  background-size: cover; 
 }
 
+
 .intro-message{
-  position: relative;
-  padding-top: 10%;
-  padding-bottom: 20%;
 
   h1{
     margin: 0;
@@ -52,27 +55,6 @@ body, h1,h2,h3,h4,h5,h6 {
   letter-spacing: 2px;
 }
 
-.content-section-a {
-  padding: 50px 0;
-  background-color: $white-primary;
-}
-
-.content-section-b {
-  padding: 50px 0;
-  border-top: 1px solid $gray;
-  border-bottom: 1px solid $gray;
-}
-
-.section-heading {
-  margin-bottom: 30px;
-}
-
-.section-heading-spacer {
-  float: left;
-  width: 200px;
-  border-top: 3px solid $gray;
-}
-
 .banner {
   padding: 100px 0;
   color: $white-primary;
@@ -85,19 +67,4 @@ body, h1,h2,h3,h4,h5,h6 {
   ul {
     margin-bottom: 0;
   }
-}
-
-.banner-social-buttons {
-  float: right;
-  margin-top: 0;
-}
-
-footer {
-  padding: 20px 0;
-  background-color: $blue-primary;
-  color: $white-primary;
-}
-
-p.copyright {
-  margin: 15px 0 0;
 }
