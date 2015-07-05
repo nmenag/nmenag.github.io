@@ -9,7 +9,7 @@ Hoy en dia muchos sitios web esta elaborados en una herramienta conocida como ge
 
 # ¿Que es Jekyll?
 
-Como hemos dicho Jekyll es una herramienta para administrar contenido. es un generador de sitio estático
+Como hemos dicho Jekyll es una herramienta para administrar contenido. Es un generador de sitios estáticos.
 
 Definición desde su  pagina oficial:
 
@@ -49,7 +49,7 @@ Puedes mirar el sitio creado, entrando a un navegador escribiendo la ruta http:/
 Jekyll por defecto  genera varias carpetas y archivos, en la documentación oficial puedes encontrar y  entender el objetivo de cada uno de ellos, véalo en el siguiente enlace <a href="http://jekyllrb.com/docs/structure/" target="_blank">http://jekyllrb.com/docs/structure/</a>
 
 
-  * **_posts:** Ahí se guardan los artículos del blog, se guardan con un formato especial, el nombre del archivo debe ser algo así `'aaa-mm-dd-titulo'`
+  * **_posts:** Ahí se almacenan los artículos, los archivos deben tener un formato `'aaa-mm-dd-titulo'`, el nombre del archivo separado por guiones.
 
   * **_includes:** Se guardan los componentes que se reutilizan en todo el sitio web como los footers o los headers.
 
@@ -59,7 +59,8 @@ Jekyll por defecto  genera varias carpetas y archivos, en la documentación ofic
 
 ### Markdown
 
-Unos de los términos mas importantes que debemos aprender es el termino Markdown, ya que Jekyll soporta este formato  para escribir los posts. Markdown es una forma ligera para escribir textos para web, podemos escribir palabras itálicas, negrita, listas y mucho mas. Lo que hace markdown es convertir el texto plano a HTML, puedes encontrar muy buena información sobre markdown y como aplicarlo en el siguiente enlace <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown. </a>. Existe editores para poder trabajar con este Formato como son <a href="http://dillinger.io/" target="_blank">http://dillinger.io/</a> y <a href="http://pad.haroopress.com/" target="_blank">haroopad</a>. Para los archivos que soporten markdown se deben guardar con la extensión  md, markdown o textile.
+Unos de los términos mas importantes que debemos aprender es el termino Markdown, ya que Jekyll soporta este formato  para escribir los posts. Markdown es una forma ligera para escribir textos para web, podemos escribir palabras itálicas, negrita, listas y mucho mas. Lo que hace markdown es convertir el texto plano a HTML, puedes encontrar muy buena información sobre markdown y como aplicarlo en el siguiente enlace <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown. </a>. Existen editores para poder trabajar con este Formato como son 
+<a href="http://dillinger.io/" target="_blank">Dillinger</a> y <a href="http://pad.haroopress.com/" target="_blank">Haroopad</a>. Para los archivos que soporten markdown se deben guardar con la extensión  md, markdown o textile.
 
 
 ### Liquid
@@ -82,7 +83,7 @@ Yaml front Matter</a> para  definir  variables a los archivos, para luego  usarl
 
 # Plugins
 
-Jekyll siendo un producto desarrollado con Ruby, se puede extender su funcionalidad mediante plugins o gemas. puedes encontrar diferentes gemas en el siguiente enlace <a href="http://www.jekyll-plugins.com/" target="_blank">Jekyll plugins</a>, ademas puedes crear tus propios módulos siguiendo la documentación oficial <a href="http://jekyllrb.com/docs/plugins/" target="_blank">http://jekyllrb.com/docs/plugins/</a>.
+Jekyll siendo un producto desarrollado con Ruby, se puede extender su funcionalidad mediante plugins o gemas. Puedes encontrar diferentes gemas en el siguiente enlace <a href="http://www.jekyll-plugins.com/" target="_blank">Jekyll plugins</a>, ademas puedes crear tus propios módulos siguiendo la documentación oficial <a href="http://jekyllrb.com/docs/plugins/" target="_blank">http://jekyllrb.com/docs/plugins/</a>.
 
 ### Jekyll-Compose
 
@@ -149,7 +150,7 @@ Pasa el archivo que esta guardado en `_drafts` y lo pasa a  la carpeta `_posts`.
 
 # Sistema de comentarios 
 
-Para agregar un sistema de comentarios a nuestro sitio web podemos usar el servicio <a href="https://disqus.com/" >Disqus</a>. para hacer uso de esta herramienta debes estar previamente registrado.
+Para agregar un sistema de comentarios a nuestro sitio web podemos usar el servicio <a href="https://disqus.com/" >Disqus</a>. Para hacer uso de esta herramienta debes estar previamente registrado.
 
 Para agregar el sistema de comentario debemos agregar la variable `comments` al YAML Front Matter con un valor de `true` al layout que queremos: 
 
