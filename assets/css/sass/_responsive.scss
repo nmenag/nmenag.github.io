@@ -1,4 +1,4 @@
-@media(max-width:767px) {
+@media(max-width:768px) {
   .intro-divider {
     width: 100%;
   }
@@ -8,7 +8,16 @@
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
   }
+
+  .menu-button{
+    width: 60px;
+    font-size: 12px;
+  }
 }
 
-@media(max-width:1199px) {
-}
+/* @media(max-width:1199px) {
+  .menu-button{
+    display:none;
+  }
+} */
+
