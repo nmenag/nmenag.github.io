@@ -2,9 +2,9 @@
 layout: post
 title: "Programar con Ruby en Ubuntu Linux"
 subtitle: "Preparación de un entorno  de desarrollo para  Ruby en Ubuntu Linux."
+category: Posts
 comments: true
 ---
-
 
 # Ante todo  la terminal
 
@@ -18,9 +18,9 @@ sudo apt-get install terminator
 </div>
 
 
-# Instalar  Ruby 
+# Instalar  Ruby
 
-Para la instalación  tanto para computadores que tengan instalado Linux o MacOs la mejor forma para  instalarlo es hacerlo via <a href="http://rbenv.org/">Rbev</a> o por  <a href="https://rvm.io/">RVM</a>. Para muchos desarrolladores prefieren Rbenv ya que dicen es  mas sencillo en su instalación, en este post vamos instalar RVM, ya que es el que uso hasta momento y no he tenido problema en su manejo. 
+Para la instalación  tanto para computadores que tengan instalado Linux o MacOs la mejor forma para  instalarlo es hacerlo via <a href="http://rbenv.org/">Rbev</a> o por  <a href="https://rvm.io/">RVM</a>. Para muchos desarrolladores prefieren Rbenv ya que dicen es  mas sencillo en su instalación, en este post vamos instalar RVM, ya que es el que uso hasta momento y no he tenido problema en su manejo.
 
 ### - Instalar RVM(Ruby version manager)
 
@@ -121,7 +121,7 @@ Colores
 
 Unas de las configuraciones extras de Git es el uso de los  alias, para mayor información de su uso y como implementarlo <a href="http://githowto.com/aliases">http://githowto.com/aliases</a>
 
-### - Configuración en el archivo .bashrc 
+### - Configuración en el archivo .bashrc
 
 Para mostrar el branch actual en la linea de comandos.
 
@@ -168,4 +168,3 @@ Paquetes o plugins recomendados para instalar:
 Si estas trabajando con MongoDB, unos de los mejores es <a href="https://github.com/paralect/robomongo">Robomongo</a>, si estas manejando postgreSQL el mas recomendado es usar <a href="http://www.pgadmin.org/">pgamdin 3</a>, para SQLite esta <a href="http://sqliteman.yarpen.cz/">Sqliteman</a> o <a href="http://sqlitebrowser.org/">SQLite browser</a>, Para MySQL esta <a href = "http://www.phpmyadmin.net/home_page/index.php">phpMyAdmin</a> y <a href="http://www.heidisql.com/">HeidiMysql</a>.
 
 Bueno esto fue todo, ojala haya sido de gran utilidad.
-

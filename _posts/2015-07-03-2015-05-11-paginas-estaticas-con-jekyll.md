@@ -2,6 +2,7 @@
 layout: post
 title: Páginas estáticas con Jekyll
 subtitle: Un generador estático para blogs y websites en Ruby
+category: Posts
 comments: true
 ---
 
@@ -59,7 +60,7 @@ Jekyll por defecto  genera varias carpetas y archivos, en la documentación ofic
 
 ### Markdown
 
-Unos de los términos mas importantes que debemos aprender es el termino Markdown, ya que Jekyll soporta este formato  para escribir los posts. Markdown es una forma ligera para escribir textos para web, podemos escribir palabras itálicas, negrita, listas y mucho mas. Lo que hace markdown es convertir el texto plano a HTML, puedes encontrar muy buena información sobre markdown y como aplicarlo en el siguiente enlace <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown. </a>. Existen editores para poder trabajar con este Formato como son 
+Unos de los términos mas importantes que debemos aprender es el termino Markdown, ya que Jekyll soporta este formato  para escribir los posts. Markdown es una forma ligera para escribir textos para web, podemos escribir palabras itálicas, negrita, listas y mucho mas. Lo que hace markdown es convertir el texto plano a HTML, puedes encontrar muy buena información sobre markdown y como aplicarlo en el siguiente enlace <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown. </a>. Existen editores para poder trabajar con este Formato como son
 <a href="http://dillinger.io/" target="_blank">Dillinger</a> y <a href="http://pad.haroopress.com/" target="_blank">Haroopad</a>. Para los archivos que soporten markdown se deben guardar con la extensión  md, markdown o textile.
 
 
@@ -69,7 +70,7 @@ Es el sistema de plantillas que usa Jekyll, desarrollado por <a href = "http://e
 
 ### Yaml Front Matter
 
-En los templates y en los posts que por defecto  crea Jekyll, en la parte superior del archivo se encuentra un bloque de código con tres lineas en puntos, algo parecido como esto: 
+En los templates y en los posts que por defecto  crea Jekyll, en la parte superior del archivo se encuentra un bloque de código con tres lineas en puntos, algo parecido como esto:
 
 {% highlight html %}
 ---
@@ -148,11 +149,11 @@ Crea un Post como borrador  y lo guarda en una carpeta llamado  `_drafts` el cre
 
 Pasa el archivo que esta guardado en `_drafts` y lo pasa a  la carpeta `_posts`.
 
-# Sistema de comentarios 
+# Sistema de comentarios
 
 Para agregar un sistema de comentarios a nuestro sitio web podemos usar el servicio <a href="https://disqus.com/" >Disqus</a>. Para hacer uso de esta herramienta debes estar previamente registrado.
 
-Para agregar el sistema de comentario debemos agregar la variable `comments` al YAML Front Matter con un valor de `true` al layout que queremos: 
+Para agregar el sistema de comentario debemos agregar la variable `comments` al YAML Front Matter con un valor de `true` al layout que queremos:
 
 ejemplo:
 
@@ -173,7 +174,7 @@ Para agregar un sistemas de comentarios en Jekyll, existen  diferentes maneras p
 
 Para añadir formularios a un sitio desarrollado por Jekyll es muy usual usar servicios externos, para los formularios los mas conocidos son:
 
- * **<a href="https://getsimpleform.com" target="_blank">Simple Form</a>** 
+ * **<a href="https://getsimpleform.com" target="_blank">Simple Form</a>**
  * **<a href="https://formkeep.com/" target="_blank">FormKeep</a>**  
  * **<a href="http://www.typeform.com/" target="_blank">TypeForm</a>**
 

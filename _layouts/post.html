@@ -64,7 +64,7 @@
 
 
           <ul class="pager">
-            {% if page.previous.url and page.previous.category == "Posts" %}
+            {% if page.previous.url %}
               <li class="previous">
                 <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Anterior Post</a>
               </li>
