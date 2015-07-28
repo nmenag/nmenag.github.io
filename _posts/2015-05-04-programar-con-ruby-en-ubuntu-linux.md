@@ -17,7 +17,6 @@ Para su instalación, solamente hacemos lo siguiente:
 sudo apt-get install terminator
 </div>
 
-
 # Instalar  Ruby
 
 Para la instalación  tanto para computadores que tengan instalado Linux o MacOs la mejor forma para  instalarlo es hacerlo via <a href="http://rbenv.org/">Rbev</a> o por  <a href="https://rvm.io/">RVM</a>. Para muchos desarrolladores prefieren Rbenv ya que dicen es  mas sencillo en su instalación, en este post vamos instalar RVM, ya que es el que uso hasta momento y no he tenido problema en su manejo.
@@ -27,37 +26,44 @@ Para la instalación  tanto para computadores que tengan instalado Linux o MacOs
 Para su  instalación de, la terminal debe estar habilitado la opción gnome-terminal <a href="https://rvm.io/integration/gnome-terminal" target="_blank">https://rvm.io/integration/gnome-terminal</a>.
 
 Si no tiene todavía instalado el <a href="http://es.wikipedia.org/wiki/CURL" target="_blank">curl</a>
+
 <div class="terminal">
 sudo apt-get install curl
 </div>
 
 Importación de las llaves
+
 <div class="terminal">
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 </div>
 
 Instalación RVM
+
 <div class="terminal">
 \curl -sSL https://get.rvm.io | bash -s stable
 </div>
 
 Cargar RVM
+
 <div class="terminal">
 source ~/.rvm/scripts/rvm
 </div>
 
 Verificar los requerimientos necesarios para su ejecución
+
 <div class="terminal">
 rvm requirements
 </div>
 
 Instalar Ruby
+
 <div class="terminal">
 $ rvm install ruby
 $ rvm --default use 2.1.5
 </div>
 
 Instalar Rubygems
+
 <div class="terminal">
 rvm rubygems current
 </div>
@@ -74,6 +80,7 @@ sudo apt-get install git
 </div>
 
 Comprobar si Git se instalo correctamente y ver que versión se instalo.
+
 <div class="terminal">
 git --version
 </div>
@@ -81,6 +88,7 @@ git --version
 ### - Configurar Git
 
 Primero la identidad
+
 <div class="terminal">
 $ git config --global user.name "name"
 $ git config --global user.email username@example.com
