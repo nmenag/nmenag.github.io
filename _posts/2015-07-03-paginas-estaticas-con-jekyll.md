@@ -32,6 +32,7 @@ gem install jekyll
 </div>
 
 Luego de instalar Jekyll empezamos en crear el primer sitio:
+
 <div class="terminal">
 jekyll new site
 </div>
@@ -43,7 +44,7 @@ cd site
 ~/site/$ jekyll s
 </div>
 
-Puedes mirar el sitio creado, entrando a un navegador escribiendo la ruta http://localhost:4000/
+Puedes mirar el sitio creado, entrando a un navegador escribiendo la ruta `http://localhost:4000/`
 
 ###Estructura de directorio
 
