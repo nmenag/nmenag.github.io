@@ -2,6 +2,7 @@
 layout: post
 title: "Programar con Ruby en Ubuntu Linux"
 subtitle: "Preparación de un entorno  de desarrollo para  Ruby en Ubuntu Linux."
+description: "Preparación de un entorno  de desarrollo para  Ruby en Ubuntu Linux."
 category: Posts
 comments: true
 ---

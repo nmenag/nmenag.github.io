@@ -24,7 +24,7 @@ body, h1,h2,h3,h4,h5,h6 {
   text-align: center;
   color: $white-primary;
   background: $blue-primary;
-  background: url(../img/SplitShire_blur07.jpg) 50% 50%;
+  background: url(../img/background.jpg) 50% 50%;
   background-size: cover;
 }
 
@@ -51,12 +51,11 @@ body, h1,h2,h3,h4,h5,h6 {
 
   h1{
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
   }
 
-  h3{
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  h1, h2, h3, h4{
+    text-shadow: 2px 2px 3px #000;
   }
 }
 

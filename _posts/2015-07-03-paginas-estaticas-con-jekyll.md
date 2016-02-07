@@ -2,6 +2,7 @@
 layout: post
 title: Páginas estáticas con Jekyll
 subtitle: Un generador estático para blogs y websites en Ruby
+description: Un generador estático para blogs y websites en Ruby
 category: Posts
 comments: true
 ---
@@ -14,7 +15,7 @@ Como hemos dicho Jekyll es una herramienta para administrar contenido. Es un gen
 
 Definición desde su  pagina oficial:
 
-#####So what is Jekyll, exactly?
+#### So what is Jekyll, exactly?
 
 > Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free
 
@@ -46,7 +47,7 @@ cd site
 
 Puedes mirar el sitio creado, entrando a un navegador escribiendo la ruta `http://localhost:4000/`
 
-###Estructura de directorio
+### Estructura de directorio
 
 Jekyll por defecto  genera varias carpetas y archivos, en la documentación oficial puedes encontrar y  entender el objetivo de cada uno de ellos, véalo en el siguiente enlace <a href="http://jekyllrb.com/docs/structure/" target="_blank">http://jekyllrb.com/docs/structure/</a>
 

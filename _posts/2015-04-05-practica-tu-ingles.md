@@ -2,6 +2,7 @@
   layout: post
   title:      "Práctica tu ingles"
   subtitle:   "Interesantes sitios donde puedes aprender o practicar tu ingles"
+  description: "Interesantes sitios donde puedes aprender o practicar tu ingles"
   date: 2015-04-05 12:19:00
   permalink: blog/2015/04/05/practica-tu-ingles/
   category: Posts
@@ -27,6 +28,6 @@ Es una aplicación, un emprendimiento español, que permite nos  aprender distin
 
 Una comunidad donde puedes contactar con hablantes nativos o expertos de un mismo idioma. <a href="https://www.busuu.com/es/" target="_blank">Visitar Sitio</a>
 
-# Om personal 
+# Om personal
 
 Es un portal de aprendizaje para el idioma ingles,  que ofrece una serie de evaluaciones y certificaciones. <a href="http://www.ompersonal.com.ar/" target="_blank">Visitar sitio</a>
