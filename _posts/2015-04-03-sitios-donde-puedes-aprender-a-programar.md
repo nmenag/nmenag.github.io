@@ -3,8 +3,6 @@
   title:      "Sitios donde puedes aprender a programar"
   subtitle:   "Una lista de sitios web donde puedes aprender el maravilloso mundo de la programación"
   description: "Una lista de sitios web donde puedes aprender el maravilloso mundo de la programación"
-  date: 2015-04-03 23:05:00
-  permalink: blog/2015/04/03/sitios-donde-puedes-aprender-a-programar/
   category: Posts
   author:   "nmenag"
   comments: true

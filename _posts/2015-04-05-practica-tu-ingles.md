@@ -3,8 +3,6 @@
   title:      "Práctica tu ingles"
   subtitle:   "Interesantes sitios donde puedes aprender o practicar tu ingles"
   description: "Interesantes sitios donde puedes aprender o practicar tu ingles"
-  date: 2015-04-05 12:19:00
-  permalink: blog/2015/04/05/practica-tu-ingles/
   category: Posts
   author:   "nmenag"
   comments: true

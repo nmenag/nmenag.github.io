@@ -3,8 +3,6 @@
   title:      "Sitios donde puedes aprender nuevas cosas"
   subtitle:   "Sitios donde podrás tomar cursos en diferentes temáticas"
   description: "Sitios donde podrás tomar cursos en diferentes temáticas"
-  date: 2015-04-08 12:19:00
-  permalink: blog/2015/04/08/sitios-donde-puedes-aprender-nuevas-cosas/
   category: Posts
   author:   "nmenag"
   comments: true

@@ -26,7 +26,7 @@ Para su funcionamiento no necesitamos usar una base de datos, incluso es unos de
 ### Como empezar a trabajar con Jekyll
 
 Antes de comenzar a crear  nuestro sitio web o nuestro blog, debemos instalar jekyll, para poder trabajar con  Jekyll necesitamos tener instalado  Ruby, si estas manejando Linux puedes mirar el siguiente  post que escribi sobre
-<a href="{{ "/2015/05/04/programar-con-ruby-en-ubuntu-linux/" | prepend: site.baseurl }}" target = "_blank">programar con Ruby en Ubuntu Linux</a>. Jekyll no es mas que una gema, entonces la instalamos de la siguiente manera:
+<a href="{{ "/posts/2015/05/04/programar-con-ruby-en-ubuntu-linux/" | prepend: site.baseurl }}" >programar con Ruby en Ubuntu Linux</a>. Jekyll no es mas que una gema, entonces la instalamos de la siguiente manera:
 
 <div class="terminal">
 gem install jekyll
